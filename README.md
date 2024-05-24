@@ -1,2 +1,2 @@
-# DepictQA-v2
-Project Page of DepictQA-v2
+# DepictQA-Wild
+Project Page of DepictQA-Wild (DepictQA-v2)
