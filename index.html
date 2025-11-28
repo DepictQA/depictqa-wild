@@ -50,35 +50,37 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h2 class="title is-1 publication-title">Descriptive Image Quality Assessment <br> in the Wild</h2>
+            <h2 class="title is-1 publication-title">Enhancing Descriptive Image Quality Assessment with A Large-scale Multi-modal Dataset</h2>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
                 <a href="https://zhiyuanyou.github.io/" target="_blank">Zhiyuan You</a><sup>12</sup>,</span>
               <span class="author-block">
-                <a href="https://www.jasongt.com/" target="_blank">Jinjin Gu</a><sup>34</sup>,</span>
+                <a href="https://www.jasongt.com/" target="_blank">Jinjin Gu</a><sup>3</sup>,</span>
+              <span class="author-block">
+                <a href="https://caixin98.github.io/" target="_blank">Xin Cai</a><sup>1</sup>,</span>
               <span class="author-block">
                 <a href="https://xpixel.group/2010/03/16/zheyuanli.html" target="_blank">Zheyuan
                   Li</a><sup>2</sup>,</span>
               <span class="author-block">
-                <a href="https://caixin98.github.io/" target="_blank">Xin Cai</a><sup>14</sup>,</span>
-              <span class="author-block">
                 Kaiwen Zhu<sup>45</sup>,</span>
               <span class="author-block">
                 <a href="https://xpixel.group/2010/01/20/chaodong.html" target="_blank">Chao
-                  Dong</a><sup>24&#10013</sup>,</span>
+                  Dong</a><sup>246&#10013</sup>,</span>
               <span class="author-block">
-                <a href="https://tianfan.info/" target="_blank">Tianfan Xue</a><sup>1&#10013</sup></span>
+                <a href="https://tianfan.info/" target="_blank">Tianfan Xue</a><sup>147&#10013</sup></span>
               </span>
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>The Chinese University of Hong Kong</span>
+              <span class="author-block"><sup>1</sup>Multimedia Laboratory, The Chinese University of Hong Kong</span><br>
               <span class="author-block"><sup>2</sup>Shenzhen Institute of Advanced Technology, Chinese Academy of
                 Sciences</span><br>
-              <span class="author-block"><sup>3</sup>University of Sydney</span>
+              <span class="author-block"><sup>3</sup>INSAIT, Sofia University</span>
               <span class="author-block"><sup>4</sup>Shanghai AI Laboratory</span>
-              <span class="author-block"><sup>5</sup>Shanghai Jiao Tong University</span>
+              <span class="author-block"><sup>5</sup>Shanghai Jiao Tong University</span><br>
+              <span class="author-block"><sup>6</sup>Shenzhen University of Advanced Technology</span>
+              <span class="author-block"><sup>7</sup>CPII under InnoHK</span>
             </div>
 
             <sup>&#10013</sup>Corresponding Author</span>
@@ -157,12 +159,12 @@
               nature of IQA tasks. However, current methods are still far from practical usage. First, prior works focus
               narrowly on specific sub-tasks or settings, which do not align with diverse real-world applications.
               Second, their performance is sub-optimal due to limitations in dataset coverage, scale, and quality. To
-              overcome these challenges, we introduce Depicted image Quality Assessment in the Wild
-              (<strong><em>DepictQA-Wild</em></strong>). Our method includes a multi-functional IQA task paradigm that
+              overcome these challenges, we introduce Enhanced Depicted image Quality Assessment
+              (<strong><em>DepictQA-Wild</em></strong> or <strong><em>EDQA</em></strong>). Our method includes a multi-functional IQA task paradigm that
               encompasses both assessment and comparison tasks, brief and detailed responses, full-reference and
               non-reference scenarios. We introduce a ground-truth-informed dataset construction approach to enhance
               data quality, and scale up the dataset to 495K under the brief-detail joint framework. Consequently, we
-              construct a comprehensive, large-scale, and high-quality dataset, named <strong><em>DQ-495K</em></strong>.
+              construct a comprehensive, large-scale, and high-quality dataset, named <strong><em>DQ-495K</em></strong> or <strong><em>EDQA-495K</em></strong>.
               We also retain image resolution during training to better handle resolution-related quality issues, and
               estimate a confidence score that is helpful to filter out low-quality responses. Experimental results
               demonstrate that DepictQA-Wild significantly outperforms traditional score-based methods, prior VLM-based
@@ -365,10 +367,10 @@
             <pre>
               <code>
     @article{depictqa_v2,
-      title={Descriptive Image Quality Assessment in the Wild},
-      author={You, Zhiyuan and Gu, Jinjin and Li, Zheyuan and Cai, Xin and Zhu, Kaiwen and Dong, Chao and Xue, Tianfan},
-      journal={arXiv preprint arXiv:2405.18842},
-      year={2024}
+        title={Enhancing Descriptive Image Quality Assessment with A Large-scale Multi-modal Dataset},
+        author={You, Zhiyuan and Gu, Jinjin and Cai, Xin and Li, Zheyuan and Zhu, Kaiwen and Dong, Chao and Xue, Tianfan},
+        journal={IEEE Transactions on Image Processing},
+        year={2025}
     }
     <br>
     @article{depictqa_v1,
